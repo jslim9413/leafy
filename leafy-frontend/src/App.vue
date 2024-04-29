@@ -4,6 +4,8 @@
       <p class="welcome-text">안녕하세요, <span class="user-name">{{ user.name }}</span>님!</p>
       <p class="description">Enocre-DevOps Page</p>
     </div>
+
+    
     <div class="brand" v-if="isLoggedIn">
       LEAFY
     </div>
